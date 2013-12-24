@@ -15,8 +15,17 @@ Decode and encode HTML character entities.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add `NSString-HTML` to your project.
 
-* Add a pod entry for NSString-HTML to your Podfile `pod 'NSString-HTML', :git => 'https://github.com/NZN/NSString-HTML'`
-* Install the pod(s) by running `pod install`.
+* Add a pod entry for NSString-HTML to your Podfile:
+
+```
+pod 'NSString-HTML', :git => 'https://github.com/NZN/NSString-HTML'
+```
+
+* Install the pod(s) by running :
+
+```
+pod install
+```
 
 ### Source files
 
@@ -28,10 +37,8 @@ Alternatively you can directly add source files to your project.
 ## Usage
 
 ```objective-c
-NSString *string = ...;
-
-[string decodeHTMLCharacterEntities];
-[string encodeHTMLCharacterEntities];
+NSString *encodedString = @"E-mail inv&#225;lido.";
+NSString *decoded = [encodedString decodeHTMLCharacterEntities];
 ```
 
 ## License
