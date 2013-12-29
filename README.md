@@ -1,4 +1,4 @@
-NSString+HTML
+NSString+HTML ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 =============
 
 Decode and encode HTML character entities.
