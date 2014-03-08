@@ -8,6 +8,7 @@ Decode and encode HTML character entities.
 </p>
 
 [![Build Status](https://api.travis-ci.org/NZN/NSString-HTML.png)](https://api.travis-ci.org/NZN/NSString-HTML.png)
+[![Analytics](https://ga-beacon.appspot.com/UA-48753665-1/NZN/NSString-HTML/README.md)](https://github.com/igrigorik/ga-beacon)
 
 ## Adding NSString-Email to your project
 
