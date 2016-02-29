@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56BB3201C8416EE007EB3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BB31F1C8416EE007EB3C8 /* main.m */; };
+		C56BB3231C8416EE007EB3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BB3221C8416EE007EB3C8 /* AppDelegate.m */; };
+		C56BB32B1C8416EF007EB3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56BB32A1C8416EF007EB3C8 /* Assets.xcassets */; };
 		F8A29EB61869DDF900A27670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A29EB51869DDF900A27670 /* Foundation.framework */; };
 		F8A29EB81869DDF900A27670 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A29EB71869DDF900A27670 /* CoreGraphics.framework */; };
 		F8A29EBA1869DDF900A27670 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A29EB91869DDF900A27670 /* UIKit.framework */; };
@@ -21,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C56BB31C1C8416EE007EB3C8 /* NSString-HTML.tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString-HTML.tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56BB31F1C8416EE007EB3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56BB3211C8416EE007EB3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C56BB3221C8416EE007EB3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C56BB32A1C8416EF007EB3C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C56BB32C1C8416EF007EB3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A29EB21869DDF900A27670 /* NSString-HTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString-HTML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A29EB51869DDF900A27670 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8A29EB71869DDF900A27670 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -38,10 +47,17 @@
 		F8A29F0B1869DEDB00A27670 /* NSString-HTML-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-HTML-Prefix.pch"; sourceTree = "<group>"; };
 		F8A29F141869DF2300A27670 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		F8A29F151869DF2300A27670 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
-		F8A29F1A1869E3DC00A27670 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8A29F1A1869E3DC00A27670 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C56BB3191C8416EE007EB3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8A29EAF1869DDF900A27670 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,10 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C56BB31D1C8416EE007EB3C8 /* NSString-HTML.tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				C56BB3211C8416EE007EB3C8 /* AppDelegate.h */,
+				C56BB3221C8416EE007EB3C8 /* AppDelegate.m */,
+				C56BB32A1C8416EF007EB3C8 /* Assets.xcassets */,
+				C56BB32C1C8416EF007EB3C8 /* Info.plist */,
+				C56BB31E1C8416EE007EB3C8 /* Supporting Files */,
+			);
+			path = "NSString-HTML.tvOS";
+			sourceTree = "<group>";
+		};
+		C56BB31E1C8416EE007EB3C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56BB31F1C8416EE007EB3C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F8A29EA91869DDF900A27670 = {
 			isa = PBXGroup;
 			children = (
 				F8A29EFB1869DEDB00A27670 /* Example */,
+				C56BB31D1C8416EE007EB3C8 /* NSString-HTML.tvOS */,
 				F8A29EB41869DDF900A27670 /* Frameworks */,
 				F8A29F131869DEDF00A27670 /* NSString-HTML */,
 				F8A29EB31869DDF900A27670 /* Products */,
@@ -69,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				F8A29EB21869DDF900A27670 /* NSString-HTML.app */,
+				C56BB31C1C8416EE007EB3C8 /* NSString-HTML.tvOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +184,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C56BB31B1C8416EE007EB3C8 /* NSString-HTML.tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56BB32F1C8416EF007EB3C8 /* Build configuration list for PBXNativeTarget "NSString-HTML.tvOS" */;
+			buildPhases = (
+				C56BB3181C8416EE007EB3C8 /* Sources */,
+				C56BB3191C8416EE007EB3C8 /* Frameworks */,
+				C56BB31A1C8416EE007EB3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString-HTML.tvOS";
+			productName = "NSString-HTML.tvOS";
+			productReference = C56BB31C1C8416EE007EB3C8 /* NSString-HTML.tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F8A29EB11869DDF900A27670 /* NSString-HTML */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8A29EE41869DDF900A27670 /* Build configuration list for PBXNativeTarget "NSString-HTML" */;
@@ -172,6 +227,11 @@
 				CLASSPREFIX = NZ;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "No Zebra Network";
+				TargetAttributes = {
+					C56BB31B1C8416EE007EB3C8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = F8A29EAD1869DDF900A27670 /* Build configuration list for PBXProject "NSString-HTML" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -187,11 +247,20 @@
 			projectRoot = "";
 			targets = (
 				F8A29EB11869DDF900A27670 /* NSString-HTML */,
+				C56BB31B1C8416EE007EB3C8 /* NSString-HTML.tvOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C56BB31A1C8416EE007EB3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56BB32B1C8416EF007EB3C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8A29EB01869DDF900A27670 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +275,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C56BB3181C8416EE007EB3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56BB3231C8416EE007EB3C8 /* AppDelegate.m in Sources */,
+				C56BB3201C8416EE007EB3C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8A29EAE1869DDF900A27670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +325,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C56BB32D1C8416EF007EB3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "NSString-HTML.tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytzong.NSString-HTML-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C56BB32E1C8416EF007EB3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "NSString-HTML.tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ytzong.NSString-HTML-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		F8A29EE21869DDF900A27670 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,6 +470,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C56BB32F1C8416EF007EB3C8 /* Build configuration list for PBXNativeTarget "NSString-HTML.tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56BB32D1C8416EF007EB3C8 /* Debug */,
+				C56BB32E1C8416EF007EB3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F8A29EAD1869DDF900A27670 /* Build configuration list for PBXProject "NSString-HTML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -364,6 +494,7 @@
 				F8A29EE61869DDF900A27670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
